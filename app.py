@@ -4,7 +4,7 @@ from flask_flatpages import FlatPages
 # Tell Flatpages to auto reload when a page is changed, and look for .md files
 FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
-
+#you can use flask-mail to send emails using a flask app
 # Create our app object, use this page as our settings (will pick up DEBUG)
 app = Flask(__name__)
 
